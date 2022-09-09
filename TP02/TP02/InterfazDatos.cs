@@ -11,7 +11,7 @@ namespace TP02
     {
         private static readonly NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
 
-
+        
         public void CargarAlumno()
         {
             Alumno temp = new Alumno();

@@ -12,19 +12,12 @@ namespace TP02
 
         public static void Main()
         {
-            try
-            {
-                logger.Info("Hello world");
-                System.Console.ReadKey();
-            }
-            catch (Exception ex)
-            {
-                logger.Error(ex, "Goodbye cruel world");
-            }
-
             InterfazDatos instituto = new InterfazDatos();
 
             instituto.CargarAlumno();
+
+
+
         }
     }
 }
